@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
       box-sizing: border-box;
-    
+  
       }
 
       body{
@@ -22,6 +22,9 @@
         font-weight: 400;
         font-style: normal;
         background: linear-gradient(to bottom,var(--text-white), 50%, rgb(218, 188, 166));
+        display: block;
+        overflow: auto;
+       
       }
       
       header{
@@ -221,13 +224,6 @@ border-radius: 10px;
     
 }
 
-#Presentacion{
-    
-
-}
-  
-
-
 
 
 
@@ -248,6 +244,7 @@ border-radius: 10px;
     bottom: 0;
     position: absolute;
     width: 100%;
+   
    
 }
 .Titulo1{
@@ -577,4 +574,54 @@ font-weight: 990;
     }
 
     
+/*360px */
+
+@media (max-width: 360px){
+.wave{
+    display: none;
+}
+
+.compras{
+    left: 0;
+    width: 100%;
+    border: none;
+    height: calc(136vh - 82px);
+}
+
+#Presentacion{
+    padding: 43px 36px;
+    align-items: center;
+    justify-content: normal
+    ;
+}
+
+#Product{
+    padding: 30px 69px;
+
+}
+#Product h2 {
+    padding: 20px 100px;
+    
+
+
+}
+
+.product-opcion{
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    min-width: 400px;
+}
+
+.Termina{
+    width: 400px;
+}
+.dedicatoria {
+    width:400px ;
+    padding: 100px 70px;
+}
+}
 
